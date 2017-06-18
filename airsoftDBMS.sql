@@ -94,28 +94,33 @@ INSERT INTO Player(name, town, playerID, callsing, age, experience, ownershipNum
 
 INSERT INTO AirsoftGun(name, brand, model, serialNum, class, type, fps, color, price
 			ownershipNum, bindID, loadTickNum)
-	Values();
+	Values('Tokyo Marui FAMAS', 'Tokyo Marui', 153586698, 937114390, 'rifle', 'aeg', 300, 'black', 275.00,
+	 		86915290, 933165869, 937114390);
 INSERT INTO AirsoftGun(name, brand, model, serialNum, class, type, fps, color, price
 			ownershipNum, bindID, loadTickNum)
-	Values();
-INSERT INTO AirsoftGun(name, brand, model, serialNum, class, type, fps, color, price
-			ownershipNum, bindID, loadTickNum)
-	Values();
-INSERT INTO AirsoftGun(name, brand, model, serialNum, class, type, fps, color, price
-			ownershipNum, bindID, loadTickNum)
-	Values();
+	Values('Tokyo Marui HK45 Tactial', 'Tokyo Marui', 492207981, 802526351, 'pistol', 'gbb', 290, 'two tone black/tan', 140.00,
+			 86915290, 197324623,129922437);
+
 
 /**** Attachments ****/
 INSERT INTO Attachment(name, brand, type, color, price, bindID)
-	Values();
+	Values('Streamlight TLR-1', 'Streamlight', 'light', 'black', 120.95, 197324623);
 
 /**** Loadout ****/
 INSERT INTO Loadout(primGunTickNum, secGunTickNum, topColor, pantColor, gearColor, carrier, headwear,
 			headwearColor, eyewear, facepro, ownershipNum, loadID)
-	Values();
+	Values(937114390, 29922437, 'wolf grey', 'multicam', 'tan', 'chest rig', 'boonie', 'multicam',
+			'glasses', 'mesh', 6915290, 313400096);
 
 
 
 
 
 
+153586698	937114390
+933165869	284554272
+708967057	692122720
+492207981	802526351
+706351710	263882825
+313400096	662490705
+197324623	129922437
