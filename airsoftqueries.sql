@@ -56,3 +56,11 @@ CREATE VIEW Snipers AS
 	WHERE Player.ownershipNum = AirsoftGun.ownershipNum
 		AND (type = 'spring' OR type = 'gas')
 		AND (class = 'bolt');
+
+
+/**** Possible Indexes ****/
+CREATE INDEX TeamRanks ON Team(rank);
+
+CREATE INDEX HomeTowns ON Players(town);
+
+CREATE INDEX GunBrands ON AirsoftGun(brand);
